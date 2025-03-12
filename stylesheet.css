@@ -1,0 +1,81 @@
+/* 1. Apply a style to an HTML tag */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #e0f7fa, #ffffff);
+  /* Light teal to white gradient */
+}
+
+/* 2. Style the ID #site-branding */
+#site-branding {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px; /* Box model property #1 */
+  margin-bottom: 10px; /* Box model property #2 */
+  border-bottom: 2px solid #ccc;
+}
+
+/* 3. A reusable class .tagline (just for fun) */
+.tagline {
+  font-size: 1.2rem;
+  color: #888;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Nav menu styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #cfd8dc;
+}
+nav ul li {
+  margin: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* 4. Another .section class used for different content areas */
+.section {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* The .bio class used multiple times (text style) */
+.bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+/* Images inside sections */
+.section-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+}
+
+/* 5. Change <a> color on hover */
+a:hover {
+  color: #00796b; 
+  text-decoration: underline;
+}
